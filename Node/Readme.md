@@ -13,7 +13,7 @@ docker build --tag ImageName:version .
 ### Run in one command
 
 ```bash
-docker run -d -p 4000:3000 --name ContainerName ImageName:version
+docker run -d -p 3000:3000 --name ContainerName ImageName:version
 ```
 
 > [!NOTE]

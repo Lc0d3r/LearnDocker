@@ -11,8 +11,8 @@ RUN npm install
 
 COPY ./src ./src
 
-# expose 4000 from the outside and 3000 from the inside
-# e.g. docker run -d -p 4000:3000 ImageName:Version
-EXPOSE 4000
+# expose 3000 from the outside and 3000 from the inside
+# e.g. docker run -d -p 3000:3000 ImageName:Version
+EXPOSE 3000
 
 CMD [ "node", "./src/index.js" ]
