@@ -17,11 +17,11 @@ docker run -d -p 3000:3000 --name ContainerName ImageName:version
 ```
 
 > [!NOTE]
-> - ```-d``` flag for detached.
-> - ```-p``` flag for publishing a container's port.
+> - `-d` flag for detached.
+> - `-p` flag for publishing a container's port.
 
 > [!NOTE]
-> - you can run ```docker ps``` to see details about the container.
+> - you can run `docker ps` to see details about the container.
 
 > [!NOTE]
 > - Replace the 'ImageName' and vesion with the name and version you want to give the image.
