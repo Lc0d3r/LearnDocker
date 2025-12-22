@@ -1,6 +1,6 @@
-## Pinger 
+## 1337-Webserv-Container 
 
-A simple Docker image based on ubuntu:22.04 to print Hello World
+A simple Docker image based on ubuntu:22.04 to run 1337-Webserv project.
 
 ## Usage
 
