@@ -7,11 +7,14 @@ RUN apt-get update && apt-get upgrade
 
 WORKDIR /app/
 
-COPY /src/ /app/
+# COPY /src/ /app/
 
 RUN apt-get install make -y
 RUN apt-get install apt-utils -y
 RUN apt-get install build-essential -y
+RUN apt-get install git -y
+RUN git clone https://github.com/Lc0d3r/1337-Webserv.git src
+WORKDIR /app/src/
 RUN make
 
 RUN mkdir www
